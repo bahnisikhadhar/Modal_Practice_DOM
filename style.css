@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.modal{
+    width: 20%;
+    height: 50vh;
+    background-color: aquamarine;
+    position: absolute;
+    top: 5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none;
+}
+.fa-xmark{
+    margin-left: 15rem;
+}
+p{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: seagreen;
+    color: white;
+}
+button:hover{
+    background-color: rgb(81, 166, 118);
+}
+button:active{
+    background-color: seagreen;
+}
+.display_block{
+    display: block;
+}
